@@ -1,0 +1,83 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font:18px sans-serif;
+}
+#busy{
+    /* background-color:rgb(41, 39, 39);
+    color:white;
+    align-items: center;
+    font-size: 45px; 
+   
+     justify-content: center; */
+      background-color: rgb(57,58,59);
+    
+    width: 100%;
+position:fixed;
+    justify-content: center;
+    gap: 30px;
+    padding: 10px; 
+    margin-top: 10px;
+
+}
+#busy>button{
+    margin-left:650px;
+    font-size: 20px;
+    color:white;
+    
+    margin-top: 50px;
+    margin-bottom: 0px; 
+    padding: 10px 15px;
+     background-color: rgb(35, 37, 38); 
+    
+     border: 0px;
+    color: white;
+    
+    border-radius: 3px; 
+    
+} 
+
+#crousel>img{
+    height:400px;
+    width:1100px;
+    margin-left: 14%;
+    
+}
+#crown>img{
+    height:200px;
+    width:1100px;
+    margin-left: 17%;
+    margin-top: 10%;
+
+}
+#container>div>img{
+    width:80%;
+    cursor: pointer;
+
+}
+#crown{
+    width: 80%;
+    height:auto;
+    text-align: center;
+}
+#container{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: auto;
+    gap:1px;
+    margin-left: 14%;
+    margin-right:60px;
+    cursor: pointer;
+
+}
+#allround{
+    margin-left:16%;
+}
+#allround>a{
+    text-decoration: none;
+    color: black;
+    
+} 
+.lab{
+    margin-left: 18%;
+}
